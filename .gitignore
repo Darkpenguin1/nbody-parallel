@@ -1,3 +1,6 @@
 *.out
 nbody_par
 nbody_seq
+venv
+.vscode
+nbody_submission.zip
