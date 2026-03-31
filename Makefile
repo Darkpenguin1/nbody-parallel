@@ -1,5 +1,7 @@
 CXXFLAGS = -O3 -fopenmp
 
+all: nbody_par nbody_seq
+
 nbody_par: nbody_par.cpp
 	g++ $(CXXFLAGS) nbody_par.cpp -o nbody_par
 

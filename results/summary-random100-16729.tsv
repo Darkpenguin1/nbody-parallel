@@ -1,0 +1,5 @@
+case	mode	threads	dt	nbstep	printevery	time_seconds	output_file
+random100	seq	1	1	10000	100	0.75	results/random100_seq.out
+random100	par	1	1	10000	100	0.93	results/random100_par_1.out
+random100	par	4	1	10000	100	1.72	results/random100_par_4.out
+random100	par	8	1	10000	100	4.18	results/random100_par_8.out
